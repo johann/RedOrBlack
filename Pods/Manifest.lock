@@ -1,0 +1,31 @@
+PODS:
+  - CNPPopupController (0.1.2)
+  - EAIntroView (2.6.4)
+  - JFMinimalNotifications (0.0.2)
+  - MDCSwipeToChoose (0.2.1)
+  - Onboard (1.1)
+
+DEPENDENCIES:
+  - CNPPopupController
+  - EAIntroView (~> 2.6.0)
+  - JFMinimalNotifications (~> 0.0.2)
+  - MDCSwipeToChoose
+  - Onboard (from `https://github.com/mamaral/Onboard.git`)
+
+EXTERNAL SOURCES:
+  Onboard:
+    :git: https://github.com/mamaral/Onboard.git
+
+CHECKOUT OPTIONS:
+  Onboard:
+    :commit: 21758e9a34ace04c669a13d5332e6688700f6d52
+    :git: https://github.com/mamaral/Onboard.git
+
+SPEC CHECKSUMS:
+  CNPPopupController: 3e4698081c04e0e2a178e4114b73c44b7301057a
+  EAIntroView: 8f66dc6b79f2d52db26af8fc5476a05ffc549d4c
+  JFMinimalNotifications: 8d8953b7c64a9def469abbd6ba051b47ff53946e
+  MDCSwipeToChoose: 54f7b1675eff182cdc46c582360c7fca4c766a67
+  Onboard: 40270e520b6df51e90de7fe0d57eb54057dc22d9
+
+COCOAPODS: 0.35.0

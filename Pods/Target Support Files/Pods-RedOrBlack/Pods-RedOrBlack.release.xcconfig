@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CNPPopupController" "${PODS_ROOT}/Headers/Public/EAIntroView" "${PODS_ROOT}/Headers/Public/JFMinimalNotifications" "${PODS_ROOT}/Headers/Public/MDCSwipeToChoose" "${PODS_ROOT}/Headers/Public/Onboard"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CNPPopupController" -isystem "${PODS_ROOT}/Headers/Public/EAIntroView" -isystem "${PODS_ROOT}/Headers/Public/JFMinimalNotifications" -isystem "${PODS_ROOT}/Headers/Public/MDCSwipeToChoose" -isystem "${PODS_ROOT}/Headers/Public/Onboard"
+OTHER_LDFLAGS = -ObjC -l"Pods-RedOrBlack-CNPPopupController" -l"Pods-RedOrBlack-EAIntroView" -l"Pods-RedOrBlack-JFMinimalNotifications" -l"Pods-RedOrBlack-MDCSwipeToChoose" -l"Pods-RedOrBlack-Onboard" -framework "CoreGraphics" -framework "UIKit"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods
